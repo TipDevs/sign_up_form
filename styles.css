@@ -1,0 +1,9 @@
+@font-face {
+    font-family: my-fonts;
+    src: url(./assets/fonts/Norse-Bold.otf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
