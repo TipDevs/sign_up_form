@@ -31,16 +31,25 @@ img[src*='display'] + div {
     width: 100%;
     background-color: black;
     opacity: 30%;
-    height: 60px;
+    height: 70px;
     position: absolute;
     top: 33%;
+    padding: 3px;
 }
 
 img[src$='png'] {
     height: 90%;
     position: absolute;
+    left: 31%;
+    top: 8%;
+}
+img[src$='png'] + p {
+    font-family: my-fonts;
+    font-size: 5rem;
+    font-weight: bold;
+    position: absolute;
     left: 44%;
-    top: 4%;
+    top: 1%;
 }
         
 /* styles for the form */
