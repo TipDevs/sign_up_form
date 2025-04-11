@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #9ed8f9;
+    color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -49,7 +49,8 @@ img[src$='png'] + p {
     font-size: 5rem;
     font-weight: bold;
     position: absolute;
-    left: 44%;
+    color: grey;
+    left: 40%;
     top: 1%;
 }
         
@@ -59,7 +60,7 @@ img[src$='png'] + p {
     width: 60vw;
     flex-direction: column;
     gap: 20px;
-    background-color: #133258;;
+    background-color: rgb(231, 231, 231);
     justify-content: center;
 }
 
@@ -81,14 +82,14 @@ form {
 
 input {
     height: 1.7rem;
-    border: none;
     outline: none;
     color: #133258;
 }
 
 input:focus {
-    border: 2px solid #133258;
+    border: 1.5px solid #2c5c96;
     border-radius: 6px;
+    box-shadow: 0 0 5px white;
 }
 
 input:invalid {
@@ -102,12 +103,12 @@ form p {
 
 .form_layout {
     width: 100%;
-    box-shadow: 0 0 10px #0c51a7;
+    box-shadow: 0 0 10px grey;
     display: flex;
     flex-direction: column;
     padding: 1.2rem 3rem;
     gap: 1.3rem;
-    background-color: #005a8f;
+    background-color: white;
     color: #133258;
 }
 
@@ -129,7 +130,7 @@ button {
     font-size: 1.2rem;
     font-weight: bold;
     background-color: #a72e27;
-    color: #9ed8f9;
+    color: white;
     border: none;
     border-radius: 6px;
 }
